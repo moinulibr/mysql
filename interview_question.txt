@@ -1,0 +1,110 @@
+Advanced MySQL / SQL Interview Questions (with Real-World Context)
+🔎 Query Performance & Optimization
+What is the difference between INNER JOIN, LEFT JOIN, and RIGHT JOIN in terms of performance?
+
+How does the LIMIT clause affect performance in large datasets?
+
+What is a covering index?
+
+What is the difference between WHERE and HAVING clause performance-wise?
+
+What are common causes of full table scan and how to avoid it?
+
+How to write optimized pagination queries in MySQL?
+
+How can you reduce the number of queries in a high-traffic application?
+
+🧠 Indexing in Depth
+What happens when you index a column with low cardinality (e.g., gender)?
+
+Can indexes slow down performance? When?
+
+Difference between composite index and multiple single-column indexes?
+
+What is index selectivity and why is it important?
+
+How do you decide which columns to index?
+
+🛠 Query Debugging / Analysis
+What is the slow_query_log in MySQL? How do you enable and analyze it?
+
+How to interpret EXPLAIN output? (key, rows, possible_keys, type)
+
+What are some alternatives to IN clause for large datasets?
+
+What is the difference between UNION and UNION ALL?
+
+How does subquery performance compare to JOIN?
+
+⚙️ Schema Design & Best Practices
+What are surrogate keys vs natural keys? Which one do you prefer and why?
+
+How do you handle optional relationships in your database schema?
+
+How do you model many-to-many relationships efficiently?
+
+How to design a flexible product variant table in an e-commerce database?
+
+What is the best way to store logs or audit trails in a relational DB?
+
+🧱 Real-World Scenarios
+Suppose you are storing billions of rows — how will you partition your data?
+
+You need to archive 5+ years old data from a live table — how would you do it safely?
+
+If you have a posts table with millions of rows, how would you show the 10 most relevant posts to a user quickly?
+
+How do you design a database that supports dynamic attributes per product (like Shopify)?
+
+🔐 Security & Data Integrity
+How can SQL Injection attacks be prevented in queries?
+
+What is the role of prepared statements in preventing SQL injection?
+
+What are the best practices for storing sensitive information like passwords or payment info?
+
+🚨 Transactions & Concurrency
+What is the difference between READ COMMITTED and REPEATABLE READ isolation levels?
+
+What is the Phantom Read problem?
+
+How does MySQL’s InnoDB engine handle row-level locking?
+
+How to prevent race conditions in concurrent database access?
+
+What are savepoints in transactions?
+
+🧱 MySQL Specific Features / Deep Dive
+What is the difference between MyISAM and InnoDB engines?
+
+What are full-text indexes? When should you use them?
+
+What is the role of AUTO_INCREMENT in scalability?
+
+How do TRIGGERS work in MySQL?
+
+What is a materialized view? Is it available in MySQL?
+
+What are CTEs (Common Table Expressions) and how are they used in MySQL?
+
+📦 Advanced NoSQL / MongoDB Interview Topics
+How does MongoDB handle atomic operations?
+
+Difference between $lookup and embedded documents?
+
+How to model one-to-many and many-to-many in MongoDB?
+
+What is the Aggregation Pipeline in MongoDB?
+
+How do you perform pagination in MongoDB?
+
+How to ensure consistency in MongoDB?
+
+🧪 Bonus: Scenario-Based + Thought Process Questions
+You need to merge two large databases with overlapping tables. How would you proceed?
+
+You’ve been tasked to improve database response time. What steps would you take?
+
+A customer complains about slow performance during peak hours. What might be the root cause and solution?
+
+You accidentally ran a delete query without a WHERE clause in production. What now?
