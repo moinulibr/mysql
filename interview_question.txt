@@ -1,3 +1,85 @@
+Basic Database Questions (General)
+What is a Database?
+
+What is a DBMS? What are its functions?
+
+What is the difference between SQL and NoSQL databases?
+
+Difference between RDBMS and DBMS?
+
+What is a primary key and foreign key?
+
+🔄 Database Normalization Related Questions
+What is normalization? Why is it important?
+
+What are the different normal forms (1NF, 2NF, 3NF, BCNF)?
+
+Difference between normalization and denormalization?
+
+What are the advantages and disadvantages of normalization?
+
+What is a functional dependency?
+
+🚀 Database Optimization / Performance Questions
+What are indexes? How do they improve performance?
+
+What is the difference between clustered and non-clustered index?
+
+When should you avoid using indexes?
+
+What is query optimization? How does it work?
+
+How do you analyze slow queries?
+
+How to use EXPLAIN or EXPLAIN ANALYZE to debug queries?
+
+What are database transactions?
+
+What is ACID property in DBMS?
+
+How do you prevent deadlocks?
+
+🔐 Data Integrity & Constraints
+What is referential integrity?
+
+What are different types of constraints in SQL? (NOT NULL, UNIQUE, CHECK, DEFAULT, etc.)
+
+How do foreign key constraints help maintain integrity?
+
+🔄 Advanced / Real-Life Database Questions
+How do you design a database schema for a multi-tenant system?
+
+How do you handle large datasets in a web application?
+
+What is data sharding?
+
+What is replication and why is it used?
+
+Difference between vertical and horizontal scaling?
+
+What are stored procedures and when should you use them?
+
+📦 NoSQL Specific Questions (MongoDB, Redis, etc.)
+What is document-based storage in MongoDB?
+
+What are collections and documents?
+
+When to use NoSQL over SQL?
+
+What is indexing in MongoDB?
+
+How does MongoDB handle relationships? (embedded vs referenced documents)
+
+🧪 Scenario-Based Questions
+Suppose you have a slow-loading report. How will you find the cause and optimize it?
+
+You have a products table with millions of rows. How would you ensure fast search?
+
+How do you design a database for an e-commerce system?
+
+What precautions will you take while writing delete queries?
+
+
 Advanced MySQL / SQL Interview Questions (with Real-World Context)
 🔎 Query Performance & Optimization
 What is the difference between INNER JOIN, LEFT JOIN, and RIGHT JOIN in terms of performance?
