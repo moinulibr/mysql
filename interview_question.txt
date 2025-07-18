@@ -1,3 +1,195 @@
+
+Basic Database Questions
+What is a Database?
+
+What is a DBMS? What are its functions?
+
+What is the difference between SQL and NoSQL databases?
+
+Difference between RDBMS and DBMS?
+
+What is a primary key and foreign key?
+
+🔄 Database Normalization Related Questions
+What is normalization? Why is it important?
+
+What are the different normal forms (1NF, 2NF, 3NF, BCNF)?
+
+Difference between normalization and denormalization?
+
+What are the advantages and disadvantages of normalization?
+
+What is a functional dependency?
+
+🚀 Database Optimization / Performance Questions
+What are indexes? How do they improve performance?
+
+What is the difference between clustered and non-clustered index?
+
+When should you avoid using indexes?
+
+What is query optimization? How does it work?
+
+How do you analyze slow queries?
+
+How to use EXPLAIN or EXPLAIN ANALYZE to debug queries?
+
+What are database transactions?
+
+What is ACID property in DBMS?
+
+How do you prevent deadlocks?
+
+🔐 Data Integrity & Constraints
+What is referential integrity?
+
+What are different types of constraints in SQL? (NOT NULL, UNIQUE, CHECK, DEFAULT, etc.)
+
+How do foreign key constraints help maintain integrity?
+
+⚙️ Schema Design & Best Practices
+What are surrogate keys vs natural keys?
+
+How do you handle optional relationships in database schema?
+
+How do you model many-to-many relationships?
+
+How to design a flexible product variant table (e-commerce)?
+
+What is the best way to store logs/audit trails in a relational DB?
+
+🔎 Indexing in Depth
+What is a covering index?
+
+What is index selectivity?
+
+When do indexes slow performance?
+
+Composite index vs multiple single-column indexes?
+
+Indexing on low cardinality columns (e.g., gender)?
+
+🧠 Query Performance & Debugging
+Difference between WHERE vs HAVING?
+
+UNION vs UNION ALL — performance?
+
+Subquery vs JOIN — which is better and when?
+
+What are alternatives to IN clause for large datasets?
+
+How to optimize pagination queries?
+
+What is slow_query_log and how to use it?
+
+How to interpret EXPLAIN output (key, rows, type)?
+
+🛡️ Transactions & Concurrency
+Isolation levels: READ COMMITTED, REPEATABLE READ, etc.
+
+What is Phantom Read?
+
+What are Savepoints in transactions?
+
+How to prevent race conditions in concurrent DB access?
+
+How does MySQL InnoDB handle row-level locking?
+
+💣 Real-World & Scenario-Based Questions
+Suppose you have a slow-loading report. How will you find and fix it?
+
+You have a products table with millions of rows. How to ensure fast search?
+
+You need to archive 5+ years of data — how would you do it safely?
+
+You accidentally ran DELETE without WHERE in production — now what?
+
+How to merge two databases with overlapping tables?
+
+How to design a scalable DB for dynamic product attributes?
+
+How to design a DB for a multi-tenant SaaS application?
+
+What precautions will you take while writing DELETE queries?
+
+🧱 MySQL-Specific Advanced Questions
+MyISAM vs InnoDB — difference and use cases?
+
+What are full-text indexes?
+
+What is AUTO_INCREMENT and its limitation in scaling?
+
+How do TRIGGERS work in MySQL?
+
+Are materialized views available in MySQL?
+
+What are CTEs (Common Table Expressions) and how to use them?
+
+What is the performance difference between JOIN types in MySQL?
+
+MySQL memory & cache tuning — how to approach?
+
+📦 NoSQL / MongoDB Specific Questions
+What is document-based storage in MongoDB?
+
+What are collections and documents?
+
+When to use NoSQL over SQL?
+
+What is indexing in MongoDB?
+
+How does MongoDB handle relationships (embedded vs referenced)?
+
+What is Aggregation Pipeline in MongoDB?
+
+How to ensure consistency in MongoDB?
+
+How to paginate large data sets in MongoDB?
+
+Difference between $lookup and embedded documents?
+
+Atomic operations in MongoDB — how do they work?
+
+🔐 Security-Based Questions
+What is SQL Injection and how to prevent it?
+
+What is the role of prepared statements?
+
+Best practices for storing sensitive data (password, payment info)?
+
+🧠 Scaling & Big Data
+What is data sharding?
+
+What is replication?
+
+Difference between vertical and horizontal scaling?
+
+How to handle large datasets in web applications?
+
+🧪 Bonus Problem-Solving Questions
+A customer complains of performance drop at peak hours — what’s your approach?
+
+You’ve been told to “speed up the app” — where do you start?
+
+What tools or metrics do you use to measure database performance?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Basic Database Questions (General)
 What is a Database?
 
